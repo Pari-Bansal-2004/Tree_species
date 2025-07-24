@@ -1,7 +1,7 @@
-🌳 Tree Species Classification –
+🌳 Tree Species Classification -
 This AI-powered app helps students and nature enthusiasts identify and explore tree species based on image, location, and tree attributes.
 
-🔍 Project Overview
+🔍 Project Overview - 
 The goal of this project is to build a machine learning model that classifies tree species using leaf and tree images. This model can assist botanists, environmentalists, or nature lovers in identifying tree species quickly and accurately.
 
 🧠 Features
@@ -30,9 +30,10 @@ The goal of this project is to build a machine learning model that classifies tr
 - Images: 1,596 total images
 - Data Structure: Each class has its own folder containing respective images.
 
-* Here are some of the species in the dataset:
+* Here are some of the species in the dataset :-
   ['shirish', 'pilikaren', 'pipal', 'simlo', 'vad', 'sugarcane', 'sitafal', 'sonmahor', 'saptaparni', 'other', 'kanchan', 'jamun', 'kesudo', 'motichanoti', 'mango', 'gulmohor', 'nilgiri', 'neem', 'khajur', 'gunda', 'cactus', 'coconut', 'bamboo', 'bili', 'amla', 'garmalo', 'asopalav', 'champa', 'banyan', 'babul']
-  📌 Note: The other category contains 150 images, likely representing miscellaneous or unidentified trees.
+
+   📌 Note: The other category contains 150 images, likely representing miscellaneous or unidentified trees.
 
 📊 Dataset Description
 
@@ -60,32 +61,33 @@ The goal of this project is to build a machine learning model that classifies tr
 🧪 Algorithms Used
 
 🔍 Recommender System
-_ Algorithm: K-Nearest Neighbors (KNN)
-_ Library: sklearn.neighbors.NearestNeighbors
-_ Inputs: location, diameter, native status, city/state
-_ Output: Most common tree species nearby
+-  Algorithm: K-Nearest Neighbors (KNN)
+- Library: sklearn.neighbors.NearestNeighbors
+-  Inputs: location, diameter, native status, city/state
+-  Output: Most common tree species nearby
 
 🧠 CNN Classifier
-_ Model: Sequential CNN (Conv2D + MaxPooling + Dense layers)
-_ Library: tensorflow.keras
-_ Input: 224x224 image
-_ Output: Predicted tree species with probability
-_ Loss: Categorical Crossentropy
-_ Optimizer: Adam
+- Model: Sequential CNN (Conv2D + MaxPooling + Dense layers)
+- Library: tensorflow.keras
+- Input: 224x224 image
+- utput: Predicted tree species with probability
+- Loss: Categorical Crossentropy
+- Optimizer: Adam
 
 📊 Preprocessing & Encoding
-_ Categorical Encoding: LabelEncoder
-_ Scaling: StandardScaler for lat/lon/diameter \* Data Splits: 80% training, 20% validation
+- Categorical Encoding: LabelEncoder
+- Scaling: StandardScaler for lat/lon/diameter \* Data Splits: 80% training, 20% validation
 
 🧰 Tools & Environment
 
 📓 Google Colab (used for writing and executing the code)
+
 🐍 Python Libraries: 
-    - cv2 (OpenCV) 
-    - numpy 
-    - matplotlib 
-    - collections 
-    - os
+* cv2 (OpenCV) 
+* numpy 
+* matplotlib 
+* collections 
+* os
 
 🗓️ Week 1 Report -
 we focused on:
@@ -106,14 +108,14 @@ we focused on:
 
 🔍 Class Distribution
 We analyzed the number of images available per class to ensure data balance. Here’s a summary:
-_ Most classes have 49–50 images
-_ The other class has 150 images
-_ Total classes: 30
-_ Total images: 1596
+- Most classes have 49–50 images
+- The other class has 150 images
+- Total classes: 30
+- Total images: 1596
 
 🖼️ Image Properties
 Using OpenCV and NumPy, we examined 10 images from each class:
-_ Min resolution: 135 x 146
-_ Max resolution: 1699 x 1300
-_ Average resolution: ~254 x 290
-_ Channels: RGB (3 channels)
+- Min resolution: 135 x 146
+- Max resolution: 1699 x 1300
+- Average resolution: ~254 x 290
+- Channels: RGB (3 channels)
