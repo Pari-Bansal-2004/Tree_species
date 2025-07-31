@@ -128,6 +128,6 @@ Using OpenCV and NumPy, we examined 10 images from each class:
 
 2. Run tree_CNN.ipynb to train the image classifier and save:
     * basic_cnn_tree_species.h5
-    * Launch the app:
 
-3. streamlit run streamlit_integrated.py
+3. Launch the app:
+    * streamlit run streamlit_integrated.py
