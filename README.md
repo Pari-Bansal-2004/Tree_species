@@ -119,3 +119,15 @@ Using OpenCV and NumPy, we examined 10 images from each class:
 - Max resolution: 1699 x 1300
 - Average resolution: ~254 x 290
 - Channels: RGB (3 channels)
+
+✅ How to Run
+1. Run 5M_trees.ipynb to train the recommender and save:
+    * tree_data.pkl
+    * scaler.joblib
+    * nn_model.joblib
+
+2. Run tree_CNN.ipynb to train the image classifier and save:
+    * basic_cnn_tree_species.h5
+    * Launch the app:
+
+3. streamlit run streamlit_integrated.py
